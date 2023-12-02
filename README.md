@@ -18,7 +18,9 @@ Kuuba Engine X (Kuuba Engine v3) is a reimagined web engine capable of 3D and 2D
 
 - KuuVM - The main Kuuba Engine X runtime environment. Uses "BufferCode" bytecode to run Kuuba Engine X apps.
 - JSKuubaX - The JavaScript to BufferCode interpeter.
-- JSEMimporter - A part of JSKuubsX, the tool that allows you to write code using C, C++, etc.
+- JSEMimporter - A part of JSKuubaX, the tool that allows you to write code using C, C++, etc.
+- Kuuenderer - The renderer of Kuuba Engine X. It renders all 2D and 3D stuff and works very closely with KuuVM at a low level
+- KuuTools - All other stuff that do not fit into Kuuenderer, such as audio, input, or stuff that KuuVM doesn't have to handle such as Emscripten compatibility issues with SDL2 and others.
 
 ## Used Projects 
 
