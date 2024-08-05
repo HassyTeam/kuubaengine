@@ -1,0 +1,39 @@
+{
+  "name": "kuubaenginex",
+  "version": "1.0.0",
+  "description": "Kuuba Engine X - not unreal, veri rial",
+  "main": "./dist/index.js",
+  "bin": {
+    "kuuba": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc --build --clean && tsc && minify-all-js ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassyTeam/kuubaengine.git"
+  },
+  "author": "Hassy Team™",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/HassyTeam/kuubaengine/issues"
+  },
+  "homepage": "https://github.com/HassyTeam/kuubaengine#readme",
+  "files": [
+    "./dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^22.1.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "minify-all-js": "^0.1.9",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
